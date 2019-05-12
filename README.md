@@ -8,16 +8,16 @@
 
 students = [
   {
-      first_name: 'Abdulmohsin',
-      last_name: 'Alsharhan'
+      first_name: 'Ahmed',
+      last_name: 'Althagafi'
   },
   {
-      first_name: 'Alya',
-      last_name: 'Alrashidi',
+      first_name: 'Norah',
+      last_name: 'Alshehri',
   },
   {
-      first_name: 'Nahed',
-      last_name: 'Hawsawi',
+      first_name: 'Haneen',
+      last_name: 'Alghamdi',
   }
 ]
 
@@ -29,7 +29,7 @@ upper_case_full_names = []
 
 ```rb
 
-[ 'ABDULMOHSIN ALSHARHAN', 'ALYA ALRASHIDI', 'NAHED HAWSAWI' ]
+[ 'AHMED ALTHAGAFI', 'NORAH ALSHEHRI', 'HANEEN ALGHAMDI' ]
 
 ```
 
@@ -39,7 +39,7 @@ upper_case_full_names = []
 
 users = [
   {
-      name: 'Salem',
+      name: 'Salman',
       orders: [
           {
               description: 'a bike'
@@ -47,7 +47,7 @@ users = [
       ]
   },
   {
-      name: 'Abdullah',
+      name: 'Saeed',
       orders: [
           {
               description: 'bees'
@@ -58,7 +58,7 @@ users = [
       ]
   },
   {
-      name: 'Rawan',
+      name: 'Danyah',
       orders: [
           {
               description: 'a MacBook'
@@ -93,7 +93,7 @@ first_order_for_each_user = []
 
 people = [
   {
-      name: 'Sara',
+      name: 'Jawaher',
       transactions: [
           {
               type: 'COFFEE',
@@ -110,7 +110,7 @@ people = [
       ]
   },
   {
-      name: 'Ahmad',
+      name: 'Nader',
       transactions: [
           {
               type: 'BIKES',
@@ -127,7 +127,7 @@ people = [
       ]
   },
   {
-      name: 'Hala',
+      name: 'Samah',
       transactions: [
           {
               type: 'COFFEE',
@@ -181,7 +181,7 @@ stores = [
       ]
   },
   {
-      store_name: 'Tamimi',
+      store_name: 'Danub',
       products: [
           {
               description: 'Silver',
@@ -232,11 +232,11 @@ Write an infinite loop that will make you add all the your friends in the studen
 ```
 
 >add a student
-Asma Baabdullah
+Sumayah Bahkeem
 >Do you want to continue ? (y/n)
 y
 >add a student
-Fajr Albakiri
+Huda Binzaqr
 >Do you want to continue ? (y/n)
 y
 >add a student
