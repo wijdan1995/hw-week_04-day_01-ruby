@@ -29,6 +29,13 @@ upper_case_full_names = []
 
 ```rb
 
+upper_case_full_names.push(students[0].values)
+upper_case_full_names.push(students[1].values)
+upper_case_full_names.push(students[2].values)
+=> [["Ahmed", "Althagafi"], ["Norah", "Alshehri"], ["Haneen", "Alghamdi"]]
+
+// u_students = students.each {|value| puts "#{value.upcase}"} //
+
 [ 'AHMED ALTHAGAFI', 'NORAH ALSHEHRI', 'HANEEN ALGHAMDI' ]
 
 ```
@@ -83,6 +90,12 @@ first_order_for_each_user = []
 ### Answer
 
 ```rb
+ first_order_for_each_user.push(users[0][:orders][0])
+ first_order_for_each_user.push(users[1][:orders][0])
+ first_order_for_each_user.push(users[2][:orders][0])
+
+ => [{:description=>"a bike"}, {:description=>"bees"}, {:description=>"a MacBook"}]
+
 
 [ {description: "a bike"}, {description: "bees"}, {description: "a MacBook"} ]
 ```
@@ -153,6 +166,9 @@ coffee_average_per_person = []
 ### Answer
 
 ```rb
+people[0][:coffee_average]=((7.43+4.43)/2)
+people[1][:coffee_average]=4.43
+people[2][:coffee_average]=((7.43+4.43+100)/3)
 
 [ 
   {name: "Jawaher", :coffee_average=>5.93}, 
