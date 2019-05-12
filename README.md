@@ -218,7 +218,7 @@ most_expensive_products_by_store = []
 
 [ 
   {store_name: "Jarir", most_expensive_product: { description: "Titanium", price: 9384.33}},
-  {store_name: "Tamimi", most_expensive_product: { description: "Silver", price: 654.44}},
+  {store_name: "Danub", most_expensive_product: { description: "Silver", price: 654.44}},
   {store_name: "Souq", most_expensive_product: { description: "Sapphire", price: 899.33}}
 ]
 ```
