@@ -155,9 +155,9 @@ coffee_average_per_person = []
 ```rb
 
 [ 
-  {name: "Sara", :coffee_average=>5.93}, 
-  {name: "Ahmad", :coffee_average=>4.43}, 
-  {name: "Hala", :coffee_average=>37.28666666666667} 
+  {name: "Jawaher", :coffee_average=>5.93}, 
+  {name: "Nader", :coffee_average=>4.43}, 
+  {name: "Samah", :coffee_average=>37.28666666666667} 
 ]
 
 ```
